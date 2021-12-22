@@ -1,0 +1,76 @@
+#indexdisplay { display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30vh;
+        font-family:  serif,'Times New Roman', Times;
+        font-style: italic;
+        color: rgb(88, 56, 88);
+        margin-bottom: 5vh;
+    }
+#homeimage { width:  120px;
+        height:  170px;
+    margin-right: 5vw;
+    border-radius: 45%;
+}
+
+
+a {text-decoration: none;
+    color: inherit;}
+
+.h-button {
+        background-color: purple ;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        font-weight: bolder;
+        align-items: flex-start;
+        text-decoration: none;
+        color: white ;}
+
+body{
+    background-color: rgb(236, 169, 236);
+}
+
+.h-button:hover {
+    color: purple;
+    z-index: 100;
+    background-color: white;
+    font-size: larger;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.h-button:link { 
+    text-decoration: none;}
+#buttoncontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+
+#formbutton {flex-wrap: nowrap;
+    
+    align-items: center;
+    padding: 25px 65px;
+    
+}
+#formbuttoncontrol { display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    margin-top: -70px;
+    margin-left: -15px;
+    
+}
+
+#qualificationbutton, #biographybutton , #contactbutton, #aboutbutton{
+    justify-content: row-reverse;
+    align-self: flex-start;
+    
+}
+#qualificationbutton, #biographybutton {padding: 27px 15px;
+    margin-top: -150px;
+    }
+#contactbutton, #aboutbutton {padding: 10vh 1vw;
+        margin-top: 7vh;}

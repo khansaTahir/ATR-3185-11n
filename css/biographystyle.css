@@ -1,0 +1,51 @@
+#image1{ width: 400px;
+    height: 600px;
+    transform: rotate(270deg);
+    
+    
+}
+.image1 {text-align: center;
+    margin: -90px 0px;
+    }
+
+#biographyparagraph { margin: 3vh 10vw;
+        line-height: 5vh;
+        font-family:  serif,'Times New Roman', Times;
+        font-style: italic;
+        color: rgb(88, 56, 88);
+
+}
+#image2 { margin: 3vh 3vw 3vh 15vw;}
+h1 {text-align: center;}
+
+#image2 {width: 400px;
+        height: 250px;
+        float: left;
+        }
+
+#biographyparagraph2 {margin-bottom: 10vh;
+        margin-right: 12vw;
+        line-height: 5vh;
+        font-family:  serif,'Times New Roman', Times;
+        font-style: italic;
+        color: rgb(88, 56, 88);
+}
+
+#bioparagraph3 {margin: 3vh 15vw;
+    display: flex;
+    line-height: 5vh;
+    font-family:  serif,'Times New Roman', Times;
+        font-style: italic;
+        color: rgb(88, 56, 88);
+        
+
+    flex-wrap: nowrap;}
+
+#image3 {width: 200px;
+        height: 350px;
+        margin-left: 2vw;
+        margin-top: -4vh;
+          }
+
+#biofullpage {display: flex;
+        flex-direction: column;}

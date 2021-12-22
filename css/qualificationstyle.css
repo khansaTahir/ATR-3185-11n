@@ -1,0 +1,11 @@
+table, th, td {
+    border: 2px solid rgb(70, 2, 109);
+    margin: 0vh 5vw;
+    
+  }
+ 
+#qualificationspage {margin-bottom: 8vh;
+    margin: 0vh 5vw;
+    font-family:  serif,'Times New Roman', Times;
+    font-style: italic;
+    color: rgb(88, 56, 88);}

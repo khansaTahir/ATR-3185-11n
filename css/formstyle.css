@@ -1,0 +1,102 @@
+
+#logo {width: 100px;
+    height: 100px;
+    margin-bottom: -20vh;
+    margin-top: 5vh;
+    margin-left: 4vw;
+    }
+#headerpart {display: flex;
+        flex-direction: row;}
+
+
+#f-buttoncontainer{display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: 18vw;
+    
+}
+.f-button, .mf-button {
+    background-color: purple ;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-weight: bolder;
+    text-decoration: none;
+    color: white ;
+    padding: 2vw 3vh;
+    
+    
+}
+
+.mf-button{color: rgb(236, 169, 236);}
+
+.f-button:hover {
+    color: purple;
+    z-index: 100;
+    background-color: white;
+    font-size: larger;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+body{background: rgb(236, 169, 236);}
+#formbutton {flex-wrap: nowrap;}
+a {text-decoration: none;
+    color: inherit;
+    
+    padding: inherit;}
+
+
+li {text-decoration: none;}
+#formrow1, #formrow2 { display: flex;
+    flex-wrap: nowrap;
+    
+    justify-content: space-between;
+
+    }
+
+
+.textbox {padding: 2vh 3vw;
+    
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    }
+#formpage { margin-left: 15vw;
+        margin-top: 10vh;
+    }
+#formfill {margin-right: 20vw;}
+
+#f-paragraph {margin-right: 20vw;
+        font-family:  serif,'Times New Roman', Times;
+        font-style: italic;
+        color: rgb(88, 56, 88);
+}
+.formlabel{margin-top: 4vh;}
+#formsubmit{ display: flex;
+    margin-bottom: 5vh;
+    justify-content: center;
+        }
+#formsubmitbutton {margin-top: 5vh;
+    padding: 20px 100px;}
+
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+    }
+    
+input[type=text]:focus {
+width: 100%;
+}
+
+
+.footer {display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: row;}
